@@ -14,7 +14,10 @@ Graph Traversal :
     (7) = DFS in Adjacency List iterative method
     (8) = DFS in Adjacency List recursive method
 
-
+BFS:
+    (1) BFS = non-weighted graph shortest path
+    (2) Dijastra = weighted graph single source shortest path
+    (3) bellman ford =  weighted graph multiple source shortest path
 
 
 7 7
@@ -86,7 +89,7 @@ connected component:
 1 2
 
 
-weighted tree:
+edges weighted tree:
 7 6
 1 2 4
 1 3 6
@@ -94,4 +97,12 @@ weighted tree:
 2 5 1
 3 6 3
 3 7 0
+
+nodes weighted tree:
+4 3
+1 2
+1 4
+4 3
+10 5 12 6
+
 
